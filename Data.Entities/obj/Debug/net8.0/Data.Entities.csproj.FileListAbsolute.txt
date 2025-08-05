@@ -1,0 +1,11 @@
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\bin\Debug\net8.0\Data.Entities.deps.json
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\bin\Debug\net8.0\Data.Entities.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\bin\Debug\net8.0\Data.Entities.pdb
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.AssemblyInfoInputs.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.AssemblyInfo.cs
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.csproj.CoreCompileInputs.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\refint\Data.Entities.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\Data.Entities.pdb
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data.Entities\obj\Debug\net8.0\ref\Data.Entities.dll

@@ -1,0 +1,5 @@
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache

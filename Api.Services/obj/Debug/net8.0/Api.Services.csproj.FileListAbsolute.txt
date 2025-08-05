@@ -1,0 +1,11 @@
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\bin\Debug\net8.0\Api.Services.deps.json
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\bin\Debug\net8.0\Api.Services.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\bin\Debug\net8.0\Api.Services.pdb
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.AssemblyInfoInputs.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.AssemblyInfo.cs
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.csproj.CoreCompileInputs.cache
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\refint\Api.Services.dll
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.pdb
+C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\ref\Api.Services.dll
