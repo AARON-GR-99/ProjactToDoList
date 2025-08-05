@@ -46,10 +46,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/8.0.0": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.13",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
@@ -251,10 +251,10 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/8.0.0": {
+      "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[8.0.0, 8.0.999]",
+          "Microsoft.EntityFrameworkCore.Relational": "[8.0.13, 8.0.999]",
           "MySqlConnector": "2.3.5"
         },
         "compile": {
@@ -337,17 +337,18 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.0": {
-      "sha512": "fFKkr24cYc7Zw5T6DC4tEyOEPgPbq23BBmym1r9kn4ET9F3HKaetpOeQtV2RryYyUxEeNkJuxgfiZHTisqZc+A==",
+    "Microsoft.EntityFrameworkCore.Relational/8.0.13": {
+      "sha512": "uQR2iTar+6ZEjEHTwgH0/7ySSRme4R9sDiupfG3w/eBub3365fPw/MjhsuOMQkdq9YzLM7veH4Qt/K9OqL26Qg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/8.0.0",
+      "path": "microsoft.entityframeworkcore.relational/8.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.8.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -716,10 +717,10 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/8.0.0": {
-      "sha512": "wEzKTeYCs/+cGSpT5zE8UrKkJyqpJ24yBufthDoCWUhpCCYUIsMKeX4fvaYcm9mbkfHP2dZ+p6V+ZKTAZ3hXRQ==",
+    "Pomelo.EntityFrameworkCore.MySql/8.0.3": {
+      "sha512": "gOHP6v/nFp5V/FgHqv9mZocGqCLGofihEX9dTbLhiXX3H7SJHmGX70GIPUpiqLT+1jIfDxg1PZh9MTUKuk7Kig==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/8.0.0",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -727,7 +728,7 @@
         "icon.png",
         "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll",
         "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.xml",
-        "pomelo.entityframeworkcore.mysql.8.0.0.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.8.0.3.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -747,27 +748,27 @@
       "Api.Models >= 1.0.0",
       "Data.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.13",
-      "Pomelo.EntityFrameworkCore.MySql >= 8.0.0"
+      "Pomelo.EntityFrameworkCore.MySql >= 8.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\argp_\\.nuget\\packages\\": {},
+    "C:\\Users\\sonic\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\argp_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data\\obj\\",
+      "projectPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\sonic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\argp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sonic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -776,17 +777,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\sonic\\OneDrive\\Documentos\\ESIME_Project\\Telerik_Collection_NuGet_Packages_R2_2023_SP2_Retail_Fixed_Downloadly.ir\\Telerik Collection NuGet Package R2 2023 SP2 Retail": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Api.Models\\Api.Models.csproj": {
-              "projectPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Api.Models\\Api.Models.csproj"
+            "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Api.Models\\Api.Models.csproj": {
+              "projectPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Api.Models\\Api.Models.csproj"
             },
-            "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj": {
-              "projectPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj"
+            "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj": {
+              "projectPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj"
             }
           }
         }
@@ -801,7 +804,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -813,7 +816,7 @@
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.3, )"
           }
         },
         "imports": [
@@ -832,7 +835,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

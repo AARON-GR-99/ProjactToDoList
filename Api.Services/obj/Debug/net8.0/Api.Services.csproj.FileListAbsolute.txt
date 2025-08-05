@@ -9,3 +9,15 @@ C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\n
 C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\refint\Api.Services.dll
 C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\Api.Services.pdb
 C:\Users\argp_\OneDrive\Documentos\ProjectList\TodoList\Api.Services\obj\Debug\net8.0\ref\Api.Services.dll
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\bin\Debug\net8.0\Api.Services.deps.json
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\bin\Debug\net8.0\Api.Services.dll
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\bin\Debug\net8.0\Api.Services.pdb
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.AssemblyInfoInputs.cache
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.AssemblyInfo.cs
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.csproj.CoreCompileInputs.cache
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.sourcelink.json
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.dll
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\refint\Api.Services.dll
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\Api.Services.pdb
+C:\Users\sonic\RiderProjects\ProjactToDoList\Api.Services\obj\Debug\net8.0\ref\Api.Services.dll

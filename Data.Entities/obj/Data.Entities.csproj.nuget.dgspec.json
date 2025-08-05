@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj": {}
+    "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj": {
+    "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj",
         "projectName": "Data.Entities",
-        "projectPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\Data.Entities.csproj",
-        "packagesPath": "C:\\Users\\argp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\argp_\\OneDrive\\Documentos\\ProjectList\\TodoList\\Data.Entities\\obj\\",
+        "projectPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\Data.Entities.csproj",
+        "packagesPath": "C:\\Users\\sonic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sonic\\RiderProjects\\ProjactToDoList\\Data.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\argp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sonic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\sonic\\OneDrive\\Documentos\\ESIME_Project\\Telerik_Collection_NuGet_Packages_R2_2023_SP2_Retail_Fixed_Downloadly.ir\\Telerik Collection NuGet Package R2 2023 SP2 Retail": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
