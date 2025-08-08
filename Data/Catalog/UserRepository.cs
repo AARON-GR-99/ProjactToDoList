@@ -1,17 +1,12 @@
-﻿using Data.Context;
+﻿using Data.Catalog;
+using Data.Context;
 using Data.Entities;
-using Microsoft.Extensions.Logging;
+using Data.Repositories;
 
 namespace Data.Repisitories.Catalogs;
 
-public class UserRepository(ApplicationDbContext context, ILogger<IUserRepository> logger)
-    : BaseRepository<User, IUserRepository>(context, logger), IUserRepository
+public class UserRepository(ApplicationDbContext context)
+    : BaseRepository<User>(context), IUserRepository
 {
-    private readonly ILogger<IUserRepository> _logger1 = logger;
 
-    public async Task<IEnumerable<User>> GetActiveUserAsync()
-    {
-        _logger1.LogInformation("Fetching active Users");
-        return await _dbSet
-    }
 }

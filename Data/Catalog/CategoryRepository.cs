@@ -1,11 +1,11 @@
 ﻿using Data.Context;
 using Data.Entities;
-using Microsoft.Extensions.Logging;
+using Data.Repositories;
 
 namespace Data.Repisitories.Catalogs;
 
-public class CategoryRepository(ApplicationDbContext context, ILogger<ICategoryRepository> logger)
-    : BaseRepository<Category, ICategoryRepository>(context, logger), ICategoryRepository
+public class CategoryRepository(ApplicationDbContext context)
+    : BaseRepository<Category>(context), ICategoryRepository
 {
-    private readonly ILogger<ICategoryRepository> _logger1 = logger;
+    
 }

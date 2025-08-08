@@ -1,8 +1,9 @@
 ﻿using Data.Entities;
+using Data.Repositories;
 
-namespace Data.Repisitories.Catalogs;
+namespace Data.Catalog;
 
 public interface IUserRepository : IBaseRepository<User>
 {
-    Task<IEnumerable<User>> GetActiveUsersAsync();
+
 }

@@ -1,10 +1,10 @@
 ﻿using Data.Context;
-using Microsoft.Extensions.Logging;
+using Data.Repositories;
 
 namespace Data.Repisitories.Catalogs;
 
-public class TaskRepository(ApplicationDbContext context, ILogger<ITaskRepository> logger)
-    : BaseRepository<Task, ITaskRepository>(context, logger), ITaskRepository
+public class TaskRepository(ApplicationDbContext context)
+    : BaseRepository<Entities.Task>(context), ITaskRepository
 {
 
 }

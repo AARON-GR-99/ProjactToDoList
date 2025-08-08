@@ -1,6 +1,7 @@
-﻿namespace Data.Repisitories.Catalogs;
+﻿using Data.Repositories;
 
-public interface ITaskRepository : IBaseRepository<Task>
+namespace Data.Repisitories.Catalogs;
+
+public interface ITaskRepository : IBaseRepository<Entities.Task>
 {
-    Task<IEnumerable<Task>> GetActiveTasksAsync();
 }
