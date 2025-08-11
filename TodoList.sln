@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Services", "Api.Services\Api.Services.csproj", "{5EFB64B2-230F-496D-B9D3-A68695315B68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoList.data", "TodoList.data", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoList.Data", "TodoList.Data", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "todoList.Api", "todoList.Api", "{73B09121-3C40-4AF0-88AE-77901D25401D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoList.Api", "TodoList.Api", "{73B09121-3C40-4AF0-88AE-77901D25401D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

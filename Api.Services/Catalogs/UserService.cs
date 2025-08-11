@@ -40,7 +40,7 @@ public class UserService(IUserRepository userRepository, IMapper mapper, ILogger
         else
         {
             var existingUser = await userRepository.GetByIdAsync(userDto.UserId);
-            user.Password = existingUser.Password;
+            if (existingUser != null) user.Password = existingUser.Password;
         }
         
         await userRepository.UpdateAsync(user);
