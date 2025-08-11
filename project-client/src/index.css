@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply scrollbar-thin scrollbar-thumb-rounded scrollbar-track-rounded scrollbar-thumb-primary-light dark:scrollbar-thumb-primary-dark scrollbar-track-surface-light dark:scrollbar-track-surface-dark;
+}

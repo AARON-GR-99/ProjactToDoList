@@ -1,0 +1,2 @@
+/Users/carl0s755/RiderProjects/Arm.Project.v2/project-client/obj/Debug/project-client.esproj.CoreCompileInputs.cache
+/Users/carl0s755/RiderProjects/ProjactToDoList/project-client/obj/Debug/project-client.esproj.CoreCompileInputs.cache
