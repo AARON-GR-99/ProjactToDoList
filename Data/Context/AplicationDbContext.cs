@@ -1,24 +1,19 @@
 ﻿using Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data.Context
+namespace Data.Context;
+
+public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
-    public class ApplicationDbContext : DbContext
+    public DbSet<User> Users { get; set; } = null!;
+    public DbSet<Category> Category { get; set; } = null!;
+    public DbSet<Entities.Task> Task { get; set; } = null!;
+    public DbSet<Profile> Profile { get; set; } = null!;
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+        base.OnModelCreating(modelBuilder);
 
-        public DbSet<User> Users { get; set; } = null!;
-        public DbSet<Category> Category { get; set; } = null!;
-        public DbSet<Entities.Task> Task { get; set; } = null!;
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-        }
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
     }
 }

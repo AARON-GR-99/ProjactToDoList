@@ -1,21 +1,28 @@
 ﻿using Api.Models.DTO;
+using Api.Services.Extencion;
 using AutoMapper;
 using Data.Catalog;
 using Data.Entities;
 using Microsoft.Extensions.Logging;
-using Task = System.Threading.Tasks.Task;
 
 namespace Api.Services.Catalogs;
 
-public class UserService(IUserRepository userRepository, IMapper mapper, ILogger<UserService> logger) : IUserService
+public class UserService(IUserRepository userRepository, IMapper mapper, ILogger<UserService> logger, IHashService hashService) : IUserService
 {
     public async Task<UserDto> CreateAsync(UserDto userDto)
     {
         logger.LogInformation("Attempting to create a new user");
         
         var user = mapper.Map<User>(userDto);
+        
+        if (!string.IsNullOrWhiteSpace(userDto.Password))
+        {
+            user.Password = hashService.Hash(userDto.Password);
+        }
+        
         await userRepository.AddAsync(user);
         await userRepository.SaveChangesAsync();
+        
         logger.LogInformation("User created successfully with ID {UserId}", user.UserId);
         return mapper.Map<UserDto>(user);
     }
@@ -25,6 +32,17 @@ public class UserService(IUserRepository userRepository, IMapper mapper, ILogger
         logger.LogInformation("Attempting to update user with ID {UserId}", userDto.UserId);
         
         var user = mapper.Map<User>(userDto);
+        
+        if (!string.IsNullOrWhiteSpace(userDto.Password))
+        {
+            user.Password = hashService.Hash(userDto.Password);
+        }
+        else
+        {
+            var existingUser = await userRepository.GetByIdAsync(userDto.UserId);
+            user.Password = existingUser.Password;
+        }
+        
         await userRepository.UpdateAsync(user);
         await userRepository.SaveChangesAsync();
         

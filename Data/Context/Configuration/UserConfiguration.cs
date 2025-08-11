@@ -19,10 +19,19 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(u => u.Correo)
             .IsRequired()
             .HasMaxLength(150);
+        
+        builder.Property(u => u.Password)
+            .IsRequired()
+            .HasMaxLength(255);
 
         builder.HasMany(u => u.Tasks)
             .WithOne(t => t.User)
             .HasForeignKey(t => t.UserId)
+            .OnDelete(DeleteBehavior.Restrict);
+        
+        builder.HasOne(u => u.Profile)
+            .WithMany(p => p.Users)
+            .HasForeignKey(u => u.ProfileId)
             .OnDelete(DeleteBehavior.Restrict);
     }
 }
